@@ -1,0 +1,18 @@
+{
+  "name": "mastocrawl",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Crawl all Mastodon servers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eamonn O'Brien-Strain",
+  "license": "ISC",
+  "dependencies": {
+    "bajel": "^1.1.0",
+    "htmlparser2": "^8.0.1",
+    "passprint": "^0.0.1",
+    "sqlite3": "^5.1.2"
+  }
+}

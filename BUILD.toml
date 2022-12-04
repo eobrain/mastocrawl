@@ -1,0 +1,11 @@
+[ingestFediverseObserver]
+deps=["allmasto.sqlite", "fediverse-observer.html","ingest-instances.js"]
+exec="node ingest-instances.js fediverse-observer.html"
+
+
+["fediverse-observer.html"]
+exec="wget https://mastodon.fediverse.observer/app/views/tabledata.php?software=mastodon -O $@"
+
+["allmasto.sqlite"]
+exec="node index.js"
+
