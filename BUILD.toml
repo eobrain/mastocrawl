@@ -9,3 +9,5 @@ exec="wget https://mastodon.fediverse.observer/app/views/tabledata.php?software=
 ["allmasto.sqlite"]
 exec="node index.js"
 
+[ingestHashtags]
+exec="node ingest-hashtags.js"

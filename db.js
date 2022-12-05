@@ -7,4 +7,4 @@ export const thrower = err => { if (err) throw (err) }
 
 export const db = new sqlite3.Database('allmasto.sqlite', MODE, thrower)
 
-db.on('trace', sql => console.log({ sql }))
+db.on('trace', sql => console.log(sql))
